@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+}
+.form {
+    text-align: center;
+    padding-top: 5%;;
+}
+input {
+    background:rgba(217, 238, 244, 0.196);
+    width: 40%;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    padding: 15px;
+    color: #757474;
+    outline: #A5CC82;
+    text-align: center;
+}
+button {
+    width: 87px;
+    padding: 8px;
+    background: #f7c729;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+button:hover {
+    background: pink;
+}
+
+#images {
+    width: 93%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+
+    img {
+        width: 25%;
+        height: auto;
+        vertical-align: middle;
+        margin: 20px;
+        box-sizing: border-box;
+        -webkit-box-shadow: 13px 14px 62px -11px rgba(0,0,0,0.49);
+        -moz-box-shadow: 13px 14px 62px -11px rgba(0,0,0,0.49);
+        box-shadow: 13px 14px 62px -11px rgba(0,0,0,0.49);
+    }
+}
